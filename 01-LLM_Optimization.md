@@ -1,5 +1,11 @@
 # LLM Optimization
 
+
+## AI Agent
+![AI Agent](./resource/ai_agent.png)
+- 구성 : Interface, LLM, Memory/State, Tool, Router, etc
+- 사전에 정해진 규칙대로 행동하는 것이 아닌, 사용자 input을 받았을때 "Reason and Acting" (사고 -> 행동 -> 관찰)을 통해 어떻게 행동할지 스스로 판단
+
 ## LLM의 문제점
 1. 사실성 문제 - 질문에 대한 답변이 없는 경우 실존하지 않는 답변을 생성할 수 있다
 2. pre-trained dataset을 사용하기에 최신 정보가 없을 수 있다
@@ -25,7 +31,7 @@
 
 
 ## Semantic Search란?
-![RAG Workflow](./resource/vector_search.jpg)
+![Semantic Search](./resource/vector_search.jpg)
 - 단순 키워드 일치를 넘어, 의도와 문맥을 통해 가장 관련성 높은 문서를 검색 (matching concept rather than keywords)
 - 구성 요소 : 
   - Embedding Model : 쿼리를 벡터 형태로 변환
@@ -39,7 +45,7 @@
 
 
 ## Fine-tuning이란?
-![RAG Workflow](./resource/fine_tuning.png)
+![Fine Tuning](./resource/fine_tuning.png)
 - Transfer Learning의 일종
 - pre-trained LLM을 특정 작업이나 도메인에 맞게 추가 학습을 진행하여 성능 향상
 - 주요 방식 :
