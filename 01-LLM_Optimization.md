@@ -44,10 +44,10 @@
 - pre-trained LLM을 특정 작업이나 도메인에 맞게 추가 학습을 진행하여 성능 향상
 - 주요 방식 :
   - Full Fine-Tuning : 모델의 모든 파라미터를 업데이트 - 높은 성능 제공, 많은 자원 소모 및 기존 지식 유실 가능
-  - Parameter Efficient Fine-Tuning : 모델의 일부 파라미터만 업데이트 - 효율적 튜
-
-
-
+  - Parameter Efficient Fine-Tuning : 모델의 일부 파라미터만 업데이트 - 효율적 튜닝
+  
+  
+  
 ## RAG vs Semantic Search vs Fine-Tuning
 
 | 항목                  | **RAG** (Retrieval-Augmented Generation)                | **Semantic Search**                                        | **Fine-Tuning**                                               |
@@ -59,8 +59,9 @@
 | **도메인 특화성**     | 중간 (문서 품질/구성에 의존)                            | 중간 (임베딩 품질에 의존)                                   | ✅ 매우 높음 (도메인 지식 모델에 내재화됨)                    |
 | **유지보수**          | ✅ 문서 업데이트만으로 최신화 가능                       | ✅ 문서만 갱신하면 됨                                        | ❌ 모델 재학습 필요                                            |
 | **사용 사례**        | 복잡한 질문 응답, 챗봇, 고객지원                         | 추천 시스템, FAQ 검색, 법률 문서 검색                        | 챗봇, 커스터마이징된 문체 응답, 전문 분야 LLM                 |
-
-
+  
+---
+  
 #### Reference
 https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/
 https://aws.amazon.com/ko/blogs/tech/amazon-opensearch-services-vector-database-capabilities-explained/
