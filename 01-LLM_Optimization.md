@@ -63,15 +63,15 @@
 ---
   
 #### Reference
-https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/
-https://aws.amazon.com/ko/blogs/tech/amazon-opensearch-services-vector-database-capabilities-explained/
-https://tsaiprabhanj.medium.com/rag-vs-semantic-search-a-deep-dive-for-generative-ai-0ada1e2d7cd0
-https://www.elastic.co/what-is/semantic-search
-https://medium.com/@naveenjothi040/semantic-search-with-llms-3661fd2a9331
-https://docs.aws.amazon.com/sagemaker/latest/dg/model-parallel-core-features-v2-fine-tuning.html
-https://platform.openai.com/docs/guides/fine-tuning
-https://www.ibm.com/think/topics/fine-tuning
-https://youtu.be/00Q0G84kq3M?si=4Feh-CR-I9EmS8oX
-https://www.youtube.com/watch?v=zYGDpG-pTho&t=1s
-https://www.youtube.com/watch?v=T-D1OfcDW1M
-
+https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/  
+https://aws.amazon.com/ko/blogs/tech/amazon-opensearch-services-vector-database-capabilities-explained/  
+https://tsaiprabhanj.medium.com/rag-vs-semantic-search-a-deep-dive-for-generative-ai-0ada1e2d7cd0  
+https://www.elastic.co/what-is/semantic-search  
+https://medium.com/@naveenjothi040/semantic-search-with-llms-3661fd2a9331  
+https://docs.aws.amazon.com/sagemaker/latest/dg/model-parallel-core-features-v2-fine-tuning.html  
+https://platform.openai.com/docs/guides/fine-tuning  
+https://www.ibm.com/think/topics/fine-tuning  
+https://youtu.be/00Q0G84kq3M?si=4Feh-CR-I9EmS8oX  
+https://www.youtube.com/watch?v=zYGDpG-pTho&t=1s  
+https://www.youtube.com/watch?v=T-D1OfcDW1M  
+  
