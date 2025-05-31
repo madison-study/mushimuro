@@ -2,17 +2,16 @@
 - 대규모 언어 모델(LLM)을 활용한 애플리케이션 개발에 특화된 오픈소스 프레임워크  
 - 기존의 언어 모델이 주로 텍스트 생성에 중점을 둔 반면, LangChain은 다양한 외부 데이터 소스와 통합하여 보다 복잡하고 유용한 애플리케이션을 만들 수 있도록 설계  
 
-
-<img src="./resource/langchain_basic_framework.png" width="300px" style="margin-right: 20px;">
-<img src="./resource/langchain.jpg" width="300px">
+<img src="./resource/langchain_basic_framework.png" width="400px" style="margin-right: 20px;">
+<img src="./resource/langchain.jpg" width="400px">
 
 - Chain이란? 여러 단계의 구성 요소를 하나로 묶은 논리적 파이프라인
-
+  - Chain structure : DAG (Directed Acyclic Graph)
+    
 #### 작동 방식
 1. Retreive data            <- Document Loader / Text Spliter
 2. Summarize the data       <- Chain of [prompt, LLM]  
 3. Answer user's prompt     <- Chain of [Memory(conversation history), prompt, LLM]
-- Chain structure (DAG: Directed Acyclic Graph)
 
 #### 장정 
 - 추상화를 통해 LLM 앱의 프로그래밍을 간소화 : LLM의 세부적 이해도 필요 X
@@ -28,27 +27,21 @@
 
 
 # Langgraph란?
-specialized library within LangChain to build stateful multi-agent systems
-process input : add task, complete task, summarize task : total of 3 nodes and connected with edges
-llm을 활용한 workflow를 구현하기 위한 프레임워크
-시스템의 상태 (state)를 기반으로 동작
-흐름은 그래프 (node-edge)로 표현
-동적 동작 제어와 관리를 통해 고도화된 agentic systems 구현
+- specialized library within LangChain to build stateful multi-agent systems
+- process input : add task, complete task, summarize task : total of 3 nodes and connected with edges
+- 일반적인 그래프 구조를 사용하여, **복잡한** 제어구조 표현 가능 : ex) 반복처리, 분기처리 
+- 구조 : Stateful graph, Cyclical graph, Nodes, Edges
+- Stateful Multi-Agent System 설계 
 
-
-1. LangChain과 LangGraph를 활용한 에이전트 시스템 구성
-LangChain 주요 컴포넌트 이해 (Chains, Tools, Memory, Agents)
-LangGraph를 통한 Stateful Multi-Agent System 설계
-
-3. Memory와 상태 관리 전략
-Short-term memory vs. Long-term memory
-ConversationContext 유지 → 지속 대화 에이전트 구현
-Vector memory + RAG 통합
+<img src="./resource/langgraph.png" width="400px">
 
 
 #### References & 추가 자료
 https://python.langchain.com/docs/introduction/  
 https://www.samsungsds.com/kr/insights/what-is-langchain.html  
+https://langchain-ai.github.io/langgraph/concepts/why-langgraph/  
+https://www.ibm.com/think/topics/langgraph  
+https://brunch.co.kr/@zer0cero/132  
 https://aws.amazon.com/ko/what-is/langchain/  
 https://www.youtube.com/watch?v=qAF1NjEVHhY  
 https://www.youtube.com/watch?v=1bUy-1hGZpI&t=6s  
