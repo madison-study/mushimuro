@@ -2,12 +2,15 @@
 - 대규모 언어 모델(LLM)을 활용한 애플리케이션 개발에 특화된 오픈소스 프레임워크  
 - 기존의 언어 모델이 주로 텍스트 생성에 중점을 둔 반면, LangChain은 다양한 외부 데이터 소스와 통합하여 보다 복잡하고 유용한 애플리케이션을 만들 수 있도록 설계  
 
-![Langchain basic framework](./resource/langchain_basic_framework.png)
-![Langchain](./resource/langchain.jpg)
+
+<img src="./resource/langchain_basic_framework.png" width="300px" style="margin-right: 20px;">
+<img src="./resource/langchain.jpg" width="300px">
+
+- Chain이란? 여러 단계의 구성 요소를 하나로 묶은 논리적 파이프라인
 
 #### 작동 방식
 1. Retreive data            <- Document Loader / Text Spliter
-2. Summarize the data       <- Chain of [prompt, LLM]  (Chain이란? 여러 단계의 구성 요소를 하나로 묶은 논리적 파이프라인)
+2. Summarize the data       <- Chain of [prompt, LLM]  
 3. Answer user's prompt     <- Chain of [Memory(conversation history), prompt, LLM]
 - Chain structure (DAG: Directed Acyclic Graph)
 
