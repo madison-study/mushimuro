@@ -45,4 +45,4 @@ https://brunch.co.kr/@zer0cero/132
 https://aws.amazon.com/ko/what-is/langchain/  
 https://www.youtube.com/watch?v=qAF1NjEVHhY  
 https://www.youtube.com/watch?v=1bUy-1hGZpI&t=6s  
-https://www.youtube.com/watch?v=yMalr0jiOAc    <---------  보기
+https://www.youtube.com/watch?v=yMalr0jiOAc
