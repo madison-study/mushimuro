@@ -21,7 +21,7 @@
 
   
 #### 동작 원리
-![Vector Search](./resource/vector_search.png)
+![Vector Search](./resource/vector_search.jpg)
 1. 인덱싱 : 벡터를 색인하여 빠르게 검색 가능하도록 구조화
  - 방법 : 해싱, 양자화, 그래프 기반
 2. 쿼리 : 쿼리 벡터와 색인된 벡터 간의 유사성을 계산. 유사성 측정이라는 수학적 방법을 사용
