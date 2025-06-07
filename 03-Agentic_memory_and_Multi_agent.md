@@ -37,8 +37,27 @@
 
 #### LTM types
 - Episodic memory
+	- operate based on past experiences and event-specific memory
+	- follow a strategy of recalling previously logged actions and outcomes to inform present decisions
+	- ex) AI 금융 어드바이저가 사용자의 이전 투자 이력을 기반으로 추천 제공, 자율주행 로봇이 과거 경로를 기억해 최적 경로 선택
+	- pro: 적응력이 뛰어나며, 과거 실패를 반복하지 않고 학습된 사례 기반으로 더 나은 의사결정 가능
+	- con: 이벤트 로그가 방대해지면 검색 효율성 문제 발생, 설계와 유지에 높은 비용 요구
+  
 - Semantic memory
+	- operate based on generalized factual knowledge rather than specific experiences
+ 	- follow rules, ontologies, 또는 임베딩 기반의 지식 구조를 통해 논리적 추론 수행
+  - ex) 법률 AI가 판례 데이터베이스를 통해 조언, 의료 진단 도구가 의학 지식을 활용
+  - pro: 체계적이고 일관된 판단 가능, 전문가 시스템에 적합
+  - con: 맥락 반영이나 사건 기반 유연성 부족, 업데이트 어려움
+    
 - Procedural memory
+	- operate based on learned sequences of actions or skills
+	- follow 자동화된 행동 패턴이나 행동 정책(policy)을 통해 별도 추론 없이 작업 수행
+	- ex) 로봇이 학습된 조립 동작 수행, AI가 반복 작업을 효율적으로 자동화
+	- pro: 고속, 저비용 작업 수행 가능. 반복적 작업에서 효율성 극대화
+	- con: 상황 변화에 유연하게 대응하기 어려움. 잘못된 행동을 학습하면 계속 반복될 수 있음
+
+---
 
 # Types of AI Agent
 - Simple reflex agent
@@ -58,6 +77,8 @@
 <img src="./resource/multi_agent.png" width="400px">
 
 - Divide and Conquer
+  
+**VS Code에서 실습**
 
 ---
 
@@ -68,4 +89,5 @@ https://www.ibm.com/think/topics/ai-agent-types
 https://langchain-ai.github.io/langgraph/tutorials/get-started/3-add-memory/#5-inspect-the-state  
 https://langchain-ai.github.io/langgraph/tutorials/get-started/3-add-memory/  
 https://python.langchain.com/v0.1/docs/modules/memory/  
+https://arxiv.org/abs/2201.11903  
 
