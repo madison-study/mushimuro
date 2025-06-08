@@ -65,11 +65,31 @@
 	- follow predefined rules (aka condition-action rules) to make decisions without considering past experiences or future consequences.
 	- ex) thermostat, automatic traffic light system
 	- pro : effective in structured and predictable env
-	- con : struggle in dynamic or complex scenarios. can make same mistakes over and over
+	- con : 복잡한 scenario에서 작동 어려움. 같은 실수를 반복적이로 할 수 있음
 - Model-based reflex agent
+	- operate based on condition-action rules + 내부 환경 모델
+	- follow 현재 상태와 과거 상호작용 정보를 함께 고려하여 행동 결정
+	- ex) 로봇이 장애물을 피할 때, 이전 경로와 장애물 위치까지 기억하여 더 똑똑하게 이동
+	- pro: 부분적으로 관측 가능한 환경에서도 잘 작동, 과거 상태를 추적하여 더 나은 판단 가능
+	- con: 여전히 학습 기능은 없으며, 복잡한 환경에 대한 고급 추론은 어려움
 - Goal-based agent
+	- operate based on 목표 지향적 의사결정 + 계획(Planning) 기능
+	- follow 정해진 목표에 도달하기 위한 최적의 행동 경로를 선택
+	- ex) 특정 방에 도달하기 위해 경로를 계획하는 자율주행 로봇
+	- pro: 미래 상태까지 고려한 결정을 내릴 수 있어 유연성과 목표 달성 능력 향상
+	- con: 목표 설정 및 평가 전략이 고정되어 있거나 제한적일 수 있음, 적응력은 제한적
 - Utility-based agent
+	- operate based on 다양한 선택지의 효용(utility)을 비교하여 최적 선택
+	- follow 목표 달성뿐 아니라 여러 요소 간의 trade-off를 고려한 판단 수행
+	- ex) 자율주행차가 빠른 경로, 연료 효율성, 안전성 간의 균형을 계산해 최적의 경로 선택
+	- pro: 복잡한 환경에서 다중 목표를 동시에 고려해 더욱 똑똑한 행동 가능
+	- con: 효용 함수를 정확히 정의하고 조정하는 것이 어렵고 비용이 많이 듬
 - Learning agent
+	- operate based on 환경과의 상호작용을 통해 경험적으로 성능 개선
+	- follow 피드백 기반 학습 구조 (Performance, Learning, Critic, Problem Generator 등)
+	- ex) 강화학습 기반 에이전트가 보상 신호를 통해 전략을 개선해가는 구조 (예: 자율주행, 게임 AI)
+	- pro: 복잡하고 예측 불가능한 환경에서 스스로 적응 및 개선 가능
+	- con: 충분한 학습 데이터 및 시간이 필요하며, 학습이 잘못되면 성능 저하 가능
 
 ---
 
