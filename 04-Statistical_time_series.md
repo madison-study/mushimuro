@@ -1,8 +1,8 @@
-# ARMA
+## ARMA
 - basic autoregressive model
-<img src="./resource/arma_expression.png" width="300px">
+<img src="./resource/arma_expression.png" width="400px">
 
-# ARIMA - Autoregressive Integrated Moving Average
+## ARIMA - Autoregressive Integrated Moving Average
 - simpler model with fewer parameters to estimate
   - powerful in capturing trends and short-term dependencies in data.
 - 3 key components
@@ -14,7 +14,7 @@
 - Use cases
   - Financial forecasting, Demand forecasting, Economic analysis, Traffic and transportation management
 
-# SARIMA - Seasonal Autoregressive Integrated Moving Average
+## SARIMA - Seasonal ARIMA
 - builds upon ARIMA's strengths by incorporationg seasonality.
   - beneficial for data exhibiting recurring patterns at fixed intervals
   - has additional parameters for seasonality, which makes it less flexible.
@@ -26,23 +26,23 @@
 - Use cases
   - Retail sales forecasting, Energy consumption prediction, Weather forecasting
 
-# ARIMAX / SARIMAX
+## ARIMAX / SARIMAX
 - ARIMA + eXogenous inputs(external factors)
 - used to get deeper insights and make more accurate predictions
 
-# Vector Autoregression
+## Vector Autoregression
 - **multivariate** extension of AR models
 - VAR model considers multiple variable simultaneously, unlike traditional AR models
 - assumption of : linearity, stationarity
-<img src="./resource/var_expression.png" width="300px">
+<img src="./resource/var_expression.png" width="400px">
 
 ---
 
-### Pros of ARIMA
+#### Pros of ARIMA
 - Simplicity : simple to understand and implement
 - Versatility : applicable in various domains
 
-### Cons of ARIMA
+#### Cons of ARIMA
 - Assumption of Linearity : not always the case in real-world scenario
 - Parameter selection
 - Risk of overfitting (SARIMA trying to fit multiple seasonal params)
