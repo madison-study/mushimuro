@@ -1,4 +1,6 @@
-## ARMA
+# Statistical based
+
+## ARMA - Autoregressive Moving Average
 - basic autoregressive model
 <img src="./resource/arma_expression.png" width="400px">
 
@@ -36,8 +38,6 @@
 - assumption of : linearity, stationarity
 <img src="./resource/var_expression.png" width="400px">
 
----
-
 #### Pros of ARIMA
 - Simplicity : simple to understand and implement
 - Versatility : applicable in various domains
@@ -49,6 +49,32 @@
 
 ---
 
+# Deep Learning based
+
+## LSTM - Long Short-Term Memory
+- what is it?
+  - type of RNN specifically designed to handle long-term dependecies
+  - unlike traditional RNNs, LSTM can retain info over long sequences -> ideal for time series forecasting
+  - prevent NN output for a given input from either decaying or exploding as it cycles through the feedback loops
+- Architecture
+ <img src="./resource/lstm.png" width="400px">
+  - Input gate
+  - Forget gate
+  - Output gate
+  - this architecture allows LSTM networks to selectively retain or discard info as it flows through the network to learn long-term dependencies
+- Pro
+  - can handle complex, nonlinear patterns
+  - can model both stationary and non-stationary data
+  - provides better performance compared to other RNN architectures by alleviating vanishing gradient problem
+- Con
+  - Computationally expensive
+  - Prone to overfitting
+
+## Attention-based RNN
+<img src="./resource/attention-based-rnn.png" width="400px">
+
+---
+
 #### References
 
 [ARMA Time Series Model](https://www.geeksforgeeks.org/arma-time-series-model/)  
@@ -56,5 +82,9 @@
 [ARIMA vs LSTM](https://www.geeksforgeeks.org/machine-learning/arima-vs-lstm/)  
 [What is an ARIMAX Model?](https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-arimax-model/)  
 [Vector Autoregression (VAR)](https://www.geeksforgeeks.org/machine-learning/vector-autoregression-var-for-multivariate-time-series/)  
+[LSTM](https://developer.nvidia.com/discover/lstm)  
+[Research on Attention-based RNN](https://arxiv.org/abs/1704.02971)  
+[review of the research above](https://simpling.tistory.com/12)  
+
 
 
