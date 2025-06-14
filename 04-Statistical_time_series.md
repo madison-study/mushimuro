@@ -50,8 +50,11 @@
 ---
 
 #### References
-https://www.geeksforgeeks.org/machine-learning/arima-vs-sarima-model/  
-https://www.geeksforgeeks.org/machine-learning/arima-vs-lstm/  
-https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-arimax-model/  
-https://www.geeksforgeeks.org/machine-learning/vector-autoregression-var-for-multivariate-time-series/  
+
+[ARMA Time Series Model](https://www.geeksforgeeks.org/arma-time-series-model/)  
+[ARIMA vs SARIMA](https://www.geeksforgeeks.org/machine-learning/arima-vs-sarima-model/)  
+[ARIMA vs LSTM](https://www.geeksforgeeks.org/machine-learning/arima-vs-lstm/)  
+[What is an ARIMAX Model?](https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-arimax-model/)  
+[Vector Autoregression (VAR)](https://www.geeksforgeeks.org/machine-learning/vector-autoregression-var-for-multivariate-time-series/)  
+
 
