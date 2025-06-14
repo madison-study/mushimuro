@@ -1,6 +1,6 @@
 # ARMA
 - basic autoregressive model
-- <img src="./resource/arma_expression.png" width="300px">
+<img src="./resource/arma_expression.png" width="300px">
 
 # ARIMA - Autoregressive Integrated Moving Average
 - simpler model with fewer parameters to estimate
