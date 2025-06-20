@@ -36,7 +36,7 @@
 - **multivariate** extension of AR models
 - VAR model considers multiple variable simultaneously, unlike traditional AR models
 - assumption of : linearity, stationarity
-<img src="./resource/var_expression.png" width="400px">
+<img src="./resource/var_expression.png" width="600px">
 
 #### Pros of ARIMA
 - Simplicity : simple to understand and implement
@@ -46,6 +46,24 @@
 - Assumption of Linearity : not always the case in real-world scenario
 - Parameter selection
 - Risk of overfitting (SARIMA trying to fit multiple seasonal params)
+
+---
+
+# ML based
+
+## MLP, RNN, CNN
+- MLP : for non-linear patterns in data
+- RNN : for sequential data, long-term memory, temporal dependencies
+- CNN : for local patterns, computational efficiency
+
+## Decision Tree
+- Random Forest
+  - constructs multiple decision trees using different subsets of data and features, then averages their predictions to reduce variance and improve accuracy.
+- Gradient Boosting
+  - sequentially builds decision trees where each tree corrects errors made by previous trees
+  - use Gradient Boosting (LightGBM, XGBoost, CatBoost) for optimizing
+    - combine weak learners to create a strong, accurate model
+    - [XGBoost, LightGBM](https://neptune.ai/blog/xgboost-vs-lightgbm)
 
 ---
 
@@ -71,8 +89,18 @@
   - Prone to overfitting
 
 ## Attention-based RNN
-<img src="./resource/attention-based-rnn.png" width="400px">
+<img src="./resource/attention-based-rnn.png" width="600px">
+[Time-series forecasting using attention mechanism](https://www.analyticsvidhya.com/blog/2023/06/time-series-forecasting-using-attention-mechanism/)  
+- Pro
+  - capturing long-term dependencies
+  - handling irregular patterns
+  - interpretable forecasts : by visualizing the attention weights, users can understand which parts of the historical data are most influential in making predictions
 
+---
+
+# Other
+
+## GAN : Generative Advversarial Networks
 ---
 
 #### References
@@ -82,9 +110,12 @@
 [ARIMA vs LSTM](https://www.geeksforgeeks.org/machine-learning/arima-vs-lstm/)  
 [What is an ARIMAX Model?](https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-arimax-model/)  
 [Vector Autoregression (VAR)](https://www.geeksforgeeks.org/machine-learning/vector-autoregression-var-for-multivariate-time-series/)  
+[ml approach for time series](https://www.geeksforgeeks.org/machine-learning/exploring-machine-learning-approaches-for-time-series/)  
 [LSTM](https://developer.nvidia.com/discover/lstm)  
 [Research on Attention-based RNN](https://arxiv.org/abs/1704.02971)  
 [review of the research above](https://simpling.tistory.com/12)  
+[Gradient boosting](https://www.geeksforgeeks.org/machine-learning/ml-gradient-boosting/)  
+[GAN time series forecasting](https://medium.com/@pape14/time-series-forecasting-with-gans-a-comprehensive-guide-accd2e22be06)  
 
 
 
