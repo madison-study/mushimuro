@@ -90,7 +90,8 @@
 
 ## Attention-based RNN
 <img src="./resource/attention-based-rnn.png" width="600px">
-[Time-series forecasting using attention mechanism](https://www.analyticsvidhya.com/blog/2023/06/time-series-forecasting-using-attention-mechanism/)  
+
+- [Time-series forecasting using attention mechanism](https://www.analyticsvidhya.com/blog/2023/06/time-series-forecasting-using-attention-mechanism/)
 - Pro
   - capturing long-term dependencies
   - handling irregular patterns
@@ -101,6 +102,13 @@
 # Other
 
 ## GAN : Generative Advversarial Networks
+<img src="./resource/gan.png" width="600px">
+
+- Generator model : generates fake samples
+- Discriminator model : decides whether real/fake sample
+- iteration : update generator when discriminator successfully detects fake samples
+
+
 ---
 
 #### References
@@ -116,6 +124,7 @@
 [review of the research above](https://simpling.tistory.com/12)  
 [Gradient boosting](https://www.geeksforgeeks.org/machine-learning/ml-gradient-boosting/)  
 [GAN time series forecasting](https://medium.com/@pape14/time-series-forecasting-with-gans-a-comprehensive-guide-accd2e22be06)  
+[GAN ibm ytb](https://www.youtube.com/watch?v=TpMIssRdhco)  
 
 
 
