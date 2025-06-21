@@ -76,6 +76,7 @@
   - prevent NN output for a given input from either decaying or exploding as it cycles through the feedback loops
 - Architecture
  <img src="./resource/lstm.png" width="400px">
+ 
   - Input gate
   - Forget gate
   - Output gate
